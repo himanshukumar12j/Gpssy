@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/splash_gradient">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="450dp"
+        android:src="@drawable/app_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="301dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="GpsSy"
+        android:textAlignment="center"
+        android:textColor="#F4F6F6"
+        android:textSize="50sp"
+        app:fontFamily="@font/alfa_slab_one"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    <Button
+        android:id="@+id/simpleButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/mybutton1"
+        android:drawableRight="@drawable/driver"
+        android:hint="Driver"
+        android:padding="4dp"
+        android:textColorHint="#fff"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <Button
+        android:id="@+id/simpleButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawableLeft="@drawable/boss1"
+        android:background="@drawable/mybutton2"
+        android:hint="owner"
+        android:padding="4dp"
+        android:textColorHint="#fff"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_margin="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="518dp"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintEnd_toEndOf="@+id/simpleButton1"
+        app:layout_constraintStart_toStartOf="@+id/simpleButton1"
+        app:layout_constraintTop_toBottomOf="@+id/simpleButton1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
