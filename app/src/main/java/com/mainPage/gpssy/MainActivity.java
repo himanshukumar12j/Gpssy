@@ -1,4 +1,4 @@
-package com.example.gpssy;
+package com.mainPage.gpssy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
