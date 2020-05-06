@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/app_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Driver.DriverSecondUI"></activity>
+        <activity
+            android:name=".Driver.DriverSecondUi"
+            android:label="@string/title_activity_driver_second_ui"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".Owner.OwnerLoginSignUp" />
         <activity android:name=".Driver.DriverLoginSignUp" />
         <activity android:name=".MainActivity">

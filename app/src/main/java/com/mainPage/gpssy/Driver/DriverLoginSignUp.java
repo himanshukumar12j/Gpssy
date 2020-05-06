@@ -25,7 +25,7 @@ public class DriverLoginSignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_driver_login_sign_up);
         if (FirebaseAuth.getInstance().getCurrentUser() != null) {
-            startActivity(new Intent(this, DriverSecondUI.class));
+            startActivity(new Intent(this, DriverSecondUi.class));
             this.finish();
         }else
         {
@@ -62,7 +62,7 @@ public class DriverLoginSignUp extends AppCompatActivity {
                     //This is a returning user
                 }
 
-                Intent intent = new Intent(this, DriverSecondUI.class);
+                Intent intent = new Intent(this, DriverSecondUi.class);
                 startActivity(intent);
                 this.finish();
 
