@@ -2,6 +2,7 @@ package com.mainPage.gpssy;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -11,6 +12,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.mainPage.gpssy.Driver.DriverLoginSignUp;
+import com.mainPage.gpssy.Owner.OwnerLoginSignUp;
 
 public class MainActivity extends AppCompatActivity {
     Animation topAnim,bottomAnim;
@@ -30,13 +34,19 @@ public class MainActivity extends AppCompatActivity {
         simpleButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Simple Button 1", Toast.LENGTH_LONG).show();//display the text of button1
+
+
+                startActivity(new Intent(MainActivity.this, DriverLoginSignUp.class));
+             //   Toast.makeText(getApplicationContext(), "Simple Button 1", Toast.LENGTH_LONG).show();//display the text of button1
             }
         });
         simpleButton2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(), "Simple Button 2", Toast.LENGTH_LONG).show();//display the text of button2
+
+                startActivity(new Intent(MainActivity.this, OwnerLoginSignUp.class));
+
+                //Toast.makeText(getApplicationContext(), "Simple Button 2", Toast.LENGTH_LONG).show();//display the text of button2
             }
         });
 
