@@ -12,22 +12,32 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.mainPage.gpssy.Driver.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_location"
+        android:name="com.mainPage.gpssy.Driver.ui.location.LocationFragment"
+        android:label="Location"
+        tools:layout="@layout/fragment_location" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.mainPage.gpssy.Driver.ui.slideshow.SlideshowFragment"
-        android:label="Slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_notification"
+        android:name="com.mainPage.gpssy.Driver.ui.notification.NotificationFragment"
+        android:label="Notification"
+        tools:layout="@layout/fragment_notification" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.mainPage.gpssy.Driver.ui.tools.ToolsFragment"
-        android:label="Tools"
-        tools:layout="@layout/fragment_tools" />
+        android:id="@+id/nav_login"
+        android:name="com.mainPage.gpssy.Driver.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.mainPage.gpssy.Driver.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.mainPage.gpssy.Driver.ui.logout.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
 
     <fragment
         android:id="@+id/nav_share"
@@ -36,8 +46,8 @@
         tools:layout="@layout/fragment_share" />
 
     <fragment
-        android:id="@+id/nav_send"
-        android:name="com.mainPage.gpssy.Driver.ui.send.SendFragment"
-        android:label="Send"
-        tools:layout="@layout/fragment_send" />
+        android:id="@+id/nav_rate"
+        android:name="com.mainPage.gpssy.Driver.ui.rate.RateFragment"
+        android:label="Rate Us"
+        tools:layout="@layout/fragment_rate" />
 </navigation>
