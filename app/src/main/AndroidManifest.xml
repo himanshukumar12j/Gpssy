@@ -12,7 +12,7 @@
         <activity
             android:name=".Driver.DriverSecondUi"
             android:label="@string/title_activity_driver_second_ui"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Owner.OwnerLoginSignUp" />
         <activity android:name=".Driver.DriverLoginSignUp" />
         <activity android:name=".MainActivity">

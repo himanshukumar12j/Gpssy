@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.mainPage.gpssy.Driver.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="Home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
@@ -20,24 +20,24 @@
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.mainPage.gpssy.Driver.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="Slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
         android:name="com.mainPage.gpssy.Driver.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:label="Tools"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
         android:id="@+id/nav_share"
         android:name="com.mainPage.gpssy.Driver.ui.share.ShareFragment"
-        android:label="@string/menu_share"
+        android:label="Share"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_send"
         android:name="com.mainPage.gpssy.Driver.ui.send.SendFragment"
-        android:label="@string/menu_send"
+        android:label="Send"
         tools:layout="@layout/fragment_send" />
 </navigation>

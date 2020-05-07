@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@drawable/splash_gradient">
+    android:background="@drawable/splash_gradient"
+    tools:context=".MainActivity">
 
 
     <ImageView
@@ -62,22 +61,22 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:drawableLeft="@drawable/boss1"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:background="@drawable/mybutton2"
+        android:drawableLeft="@drawable/boss1"
         android:hint="owner"
         android:padding="4dp"
         android:textColorHint="#fff"
         android:textSize="35sp"
         android:textStyle="bold|italic"
-        android:layout_marginLeft="25dp"
-        android:layout_marginRight="25dp"
-        android:layout_margin="20dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="518dp"
-        tools:ignore="MissingConstraints"
         app:layout_constraintEnd_toEndOf="@+id/simpleButton1"
         app:layout_constraintStart_toStartOf="@+id/simpleButton1"
-        app:layout_constraintTop_toBottomOf="@+id/simpleButton1" />
+        app:layout_constraintTop_toBottomOf="@+id/simpleButton1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="518dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
